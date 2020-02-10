@@ -62,6 +62,7 @@ func CreatePost(w http.ResponseWriter, r *http.Request) {
 		Text:       "Would you like to help?\n",
 		Color:      "#3AA3E3",
 		CallbackID: "accept",
+		MarkdownIn: []string{"text"},
 		Actions: []slack.AttachmentAction{
 			{
 				Name:  "yes",
