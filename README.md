@@ -1,2 +1,3 @@
-# go_cats_helper
-Cats Little Helper
+# Cats Little Helper
+
+An interactive slackbot helper written in Go
